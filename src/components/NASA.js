@@ -26,7 +26,8 @@ const NASA = () => {
 
 <NASADailyPhotoCard date={photo.date}
                     explanation = {photo.explanation}
-                    image={photo.hdurl}/>
+                    image={photo.hdurl}
+                    title={photo.title}/>
         </div>
 
     )
