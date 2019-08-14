@@ -5,10 +5,9 @@ import NASA from "./components/NASA";
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <div className="head">
+        <h1>NASA Daily Photo Apps</h1>
+      </div>
       <NASA />
     </div>
   );
