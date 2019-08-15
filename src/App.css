@@ -42,3 +42,12 @@
   background:white;
   color:black;
 }
+.ui.button{
+  margin: 10px 20px 0 20px;
+}
+.ui.facebook{
+  background:lightblue;
+}
+.ui.twitter{
+  background:lightyellow;
+}

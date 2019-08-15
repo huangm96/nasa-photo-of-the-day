@@ -3,6 +3,7 @@ import "./App.css";
 import NASA from "./components/NASA";
 import styled from 'styled-components';
 import MenuBar from "./components/MenuBar";
+import FooterBar from "./components/FooterBar";
 
 const AppStyle = styled.div`
      text-align: center;
@@ -20,7 +21,7 @@ function App() {
       </div>
       <MenuBar className ="menuBar"/>
       <NASA />
-      
+      <FooterBar />
     </AppStyle>
     
   );
