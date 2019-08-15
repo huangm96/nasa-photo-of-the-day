@@ -11,16 +11,16 @@ export default class MenuBar extends Component {
 
     return (
       <Menu >
-        <Menu.Item className ="menuItem"
-          name="editorials"
-          active={activeItem === "editorials"}
+        <Menu.Item 
+          name="home"
+          active={activeItem === "home"}
           content="Home"
           onClick={this.handleItemClick}
         />
 
         <Menu.Item
-          name="reviews"
-          active={activeItem === "reviews"}
+          name="events"
+          active={activeItem === "events"}
           content="Events"
           onClick={this.handleItemClick}
         />
